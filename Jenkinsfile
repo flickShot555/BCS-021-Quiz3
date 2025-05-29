@@ -19,7 +19,7 @@ pipeline {
             steps {
                 // Run with echo input using a here-document
                 bat '''
-                java program <<EOF
+                'java HelloWorld'
 10
 5
 +
